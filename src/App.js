@@ -432,7 +432,7 @@ const About = () => (
       <div className="about-layout">
         <div className="about-image-wrap fade-up">
           <img
-            src="https://res.cloudinary.com/dzaceww4a/image/upload/v1775513508/IMG-20251030-WA0088_omov1s.jpg"
+            src="https://res.cloudinary.com/dzaceww4a/image/upload/v1775513508/IMG-20251030-WA0088_omov1s.png"
             alt="Retrato profesional"
           />
         </div>
