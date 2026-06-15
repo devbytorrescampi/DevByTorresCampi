@@ -5,6 +5,7 @@ import {
   FaEnvelope,
   FaExternalLinkAlt,
   FaGithub,
+  FaInstagram,
   FaLaptopCode,
   FaLinkedin,
   FaPhoneAlt,
@@ -722,44 +723,48 @@ function App() {
         style={{ width: '420px', maxWidth: '80vw', marginBottom: '2rem', opacity: 0.9 }}
       />
       <h1 style={{
-        fontSize: 'clamp(1.5rem, 4vw, 2.4rem)',
+        fontSize: 'clamp(2rem, 6vw, 3.5rem)',
         color: '#14213d',
         fontWeight: 700,
         marginBottom: '1rem',
-        lineHeight: 1.3,
+        lineHeight: 1.2,
+        letterSpacing: '-0.5px',
       }}>
-        Estamos reestructurando nuestra página
+        Sitio Web en Mantenimiento
       </h1>
       <p style={{
-        fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
+        fontSize: 'clamp(1.2rem, 3vw, 1.8rem)',
+        color: '#14213d',
+        fontWeight: 600,
+        marginBottom: '1rem',
+      }}>
+        Volveremos muy Pronto.
+      </p>
+      <p style={{
+        fontSize: 'clamp(0.9rem, 2vw, 1.1rem)',
         color: '#4b5563',
-        maxWidth: '500px',
+        maxWidth: '480px',
         lineHeight: 1.7,
         marginBottom: '2.5rem',
       }}>
-        para mejorar nuestros servicios y brindarte una mejor experiencia. Volvemos pronto.
+        Estamos trabajando para mejorar la experiencia dev, comunicate con nosotros via Instagram.
       </p>
-      <div style={{ display: 'flex', gap: '1.2rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-        <a
-          href="https://www.instagram.com/devbytorrescampi/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            background: '#0055A4',
-            color: '#fff',
-            padding: '0.75rem 1.5rem',
-            borderRadius: '8px',
-            textDecoration: 'none',
-            fontWeight: 600,
-            fontSize: '0.95rem',
-          }}
-        >
-          Contactame
-        </a>
-      </div>
+      <a
+        href="https://www.instagram.com/devbytorrescampi/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          background: 'transparent',
+          color: '#0055A4',
+          textDecoration: 'none',
+          fontSize: '3rem',
+          lineHeight: 1,
+        }}
+      >
+        <FaInstagram />
+      </a>
     </div>
   );
 }
