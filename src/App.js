@@ -705,15 +705,61 @@ const Footer = () => (
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      background: 'linear-gradient(135deg, #fff8ef 0%, #f8eedf 100%)',
+      fontFamily: "'Montserrat', sans-serif",
+      padding: '2rem',
+      textAlign: 'center',
+    }}>
+      <img
+        src="/logo.png"
+        alt="Logo"
+        style={{ width: '420px', maxWidth: '80vw', marginBottom: '2rem', opacity: 0.9 }}
+      />
+      <h1 style={{
+        fontSize: 'clamp(1.5rem, 4vw, 2.4rem)',
+        color: '#14213d',
+        fontWeight: 700,
+        marginBottom: '1rem',
+        lineHeight: 1.3,
+      }}>
+        Estamos reestructurando nuestra página
+      </h1>
+      <p style={{
+        fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
+        color: '#4b5563',
+        maxWidth: '500px',
+        lineHeight: 1.7,
+        marginBottom: '2.5rem',
+      }}>
+        para mejorar nuestros servicios y brindarte una mejor experiencia. Volvemos pronto.
+      </p>
+      <div style={{ display: 'flex', gap: '1.2rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <a
+          href="https://www.instagram.com/devbytorrescampi/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            background: '#0055A4',
+            color: '#fff',
+            padding: '0.75rem 1.5rem',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            fontWeight: 600,
+            fontSize: '0.95rem',
+          }}
+        >
+          Contactame
+        </a>
+      </div>
     </div>
   );
 }
